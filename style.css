@@ -1,0 +1,143 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1vw;
+}
+
+.header_main h1 {
+    margin: 0;
+    margin-top: 10px;
+    letter-spacing: 5px;
+}
+.header_main p {
+    margin: 0%;
+    letter-spacing: 5px;
+    margin-bottom: 2px;
+}
+
+.header_main {
+    text-align: center;
+}
+
+.list {
+    list-style: none;
+}
+
+.list li {
+    width: 140px;
+    text-align: center;
+    display: inline-block;
+}
+.list li a {
+    text-decoration: none;
+    color: black;
+    letter-spacing: 5px;
+    font-weight: bold;
+
+}
+
+.header_contents {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header {
+    box-shadow:  1px 1px 1px rgb(231, 231, 231);
+}
+
+.header_under {
+    background-color: rgb(29, 29, 29);
+    height: 30vw;
+    margin-bottom: 50px;
+}
+
+.header_photo {
+    height: 30vw;
+    width: 100%;
+    object-fit: cover;
+}
+
+.main_contents {
+    justify-content: center;
+    letter-spacing: 3px;
+}
+
+.main_contents h2 {
+    background-color: rgb(29, 29, 29);
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+.ex_line_1 {
+    display: flex;
+    justify-content: center;
+}
+
+.main_explanation_1 {
+    margin: 0px 50px 50px 50px;
+    /*上　右　下　左*/
+}
+
+.ex_1_photo {
+    background-color: rgb(29, 29, 29);
+    width: 20vw;
+    height: 20vw;
+}
+
+.main_explanation_2 {
+    margin: 0px 0px 50px 0px;
+    /*上　右　下　左*/
+}
+
+.ex_2_photo {
+    background-color: rgb(29, 29, 29);
+    width: 20vw;
+    height: 20vw;
+}
+
+.main_explanation_3 {
+    margin: 0px 50px 50px 50px;
+    /*上　右　下　左*/
+}
+
+.ex_3_photo {
+    background-color: rgb(29, 29, 29);
+    width: 20vw;
+    height: 20vw;
+}
+
+.movie_photo {
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.ex_line_2 {
+    display: flex;
+    justify-content: center;
+}
+
+.send_movie_bar {
+    display: flex;
+    background-color: rgb(29, 29, 29);
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.send_movie_bar h2 {
+    color: rgb(255, 255, 255);
+    letter-spacing: 10px;
+    margin: auto;
+}
+
+.main_send_movie {
+    display: flex;
+}
+
+.main_send_movie iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+}
