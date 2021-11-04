@@ -16,7 +16,8 @@ body {
 }
 
 .header_main {
-    text-align: center;
+    text-align: left;
+
 }
 
 .list {
@@ -24,9 +25,10 @@ body {
 }
 
 .list li {
-    width: 140px;
-    text-align: center;
+    width: 160px;
+    text-align: end;
     display: inline-block;
+    font-weight: bold;
 }
 .list li a {
     text-decoration: none;
@@ -39,7 +41,8 @@ body {
 .header_contents {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+
 }
 
 header {
@@ -85,8 +88,14 @@ header {
     height: 20vw;
 }
 
+.Notify_photo {
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+}
+
 .main_explanation_2 {
-    margin: 0px 0px 50px 0px;
+    margin: 0px 0px 100px 0px;
     /*上　右　下　左*/
 }
 
@@ -94,6 +103,12 @@ header {
     background-color: rgb(29, 29, 29);
     width: 20vw;
     height: 20vw;
+}
+
+.Movie_photo {
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
 }
 
 .main_explanation_3 {
@@ -107,7 +122,8 @@ header {
     height: 20vw;
 }
 
-.movie_photo {
+
+.Record_photo {
     width: 20vw;
     height: 20vw;
     object-fit: cover;
@@ -118,6 +134,23 @@ header {
     justify-content: center;
 }
 
+.RecordButton_photo {
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.RecordStop_photo {
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+}
+
+.SendRecord_photo {
+    width: 20vw;
+    height: 20vw;
+    object-fit: cover;
+}
 .send_movie_bar {
     display: flex;
     background-color: rgb(29, 29, 29);
