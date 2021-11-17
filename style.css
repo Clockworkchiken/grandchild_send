@@ -189,3 +189,17 @@ header {
     margin-right: auto;
     border: none;
 }
+
+.movie_verifi_bar {
+    display: flex;
+    background-color: rgb(29, 29, 29);
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.movie_verifi_bar h2 {
+    color: rgb(255, 255, 255);
+    letter-spacing: 10px;
+    margin: auto;
+}
+
